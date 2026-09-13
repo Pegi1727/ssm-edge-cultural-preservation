@@ -17,7 +17,7 @@
 ## 📌 Graphical Abstract
 
 <p align="center">
-  <img src="figures/graphical_abstract.png" alt="Graphical Abstract: Centralized Homogenization vs. Decentralized Sovereignty" width="95%"/>
+  <img src="figures/graphical abstract.png" alt="Graphical Abstract: Centralized Homogenization vs. Decentralized Sovereignty" width="95%"/>
 </p>
 <p align="center"><em><b>Figure 1: Architectural & Sociotechnical Paradigm Shift.</b> Centralized, monolithic cloud architectures systematically impose Western-centric normative priors and subword fragmentation on non-hegemonic languages (Left). Conversely, localized on-device Selective State Space Models (Mamba-1.4B) preserve morphosyntactic richness, eliminate subword penalties, and restore sociopragmatic fidelity within a decentralized paradigm (Right).</em></p>
 
