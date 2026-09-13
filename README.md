@@ -25,6 +25,8 @@
 
 ## 📈 Visual Evidence Gallery
 
+## 📈 Visual Evidence Gallery
+
 ### Graphical Abstract: Architectural & Sociotechnical Paradigm Shift
 <p align="center">
   <img src="figures/graphical_abstract.png" alt="Graphical Abstract: Centralized Homogenization vs. Decentralized Sovereignty" width="95%"/>
@@ -43,13 +45,9 @@
 
 ### Figure 3: Linguistic Homogenisation vs. Pragmatic Fidelity Correlation
 <p align="center">
-  <img src="figures/figure3.png" alt="Figure 3: Linguistic Homogenisation vs. Pragmatic Fidelity" width="75%"/>
+  <img src="figures/figure%203.png" alt="Figure 3: Linguistic Homogenisation vs. Pragmatic Fidelity" width="75%"/>
 </p>
-<p align="center"><em><b>Figure 3:</b> Significant inverse trajectory between Linguistic Homogenisation Index (LHI) and Pragmatic Fidelity Score (PFS) ($\rho = -1.000, p < .001$). Monolithic cloud models impose semantic flattening that directly degrades culturally grounded pragmatic fidelity.</em></p>
-
----
-
-### Figure 4: Typological Breakdown and Cross-Linguistic Disparities
+<p align="center"><em><b>Figure 3:</b> Significant inverse trajectory between Linguistic Homogenisation Index (LHI) and Pragmatic Fidelity Score (PFS) ($\rho = -1.000, p < .001$). Monolithic cloud models impose semantic flattening thatinguistic Disparities
 <p align="center">
   <img src="figures/figure4.png" alt="Figure 4: Typological Breakdown Radar Chart" width="75%"/>
 </p>
@@ -58,7 +56,7 @@
 ---
 
 ### Figure 5: 3D Linguistic Sovereignty Landscape & Dynamics
-<p idiomaticity, and pragmatic calibration across Indo-Iranian, Turkic, Slavic, Romance, and Germanic typologies.</em></p>
+<p</em></p>
 
 ---
 
