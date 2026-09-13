@@ -87,7 +87,49 @@ The table below presents the quantitative comparison between the **Cloud Baselin
 *Notation: **TTFT**: Time-to-First-Token; **TFF**: Token Fragmentation Factor; **LHI**: Linguistic Homogenisation Index; **PFS**: Pragmatic Fidelity Score.*
 
 ---
+💡 Conclusion & Sociotechnical Implications
+This research demonstrates that linguistic diversity and cultural sovereignty in artificial intelligence cannot be safeguarded through centralized cloud scaling alone. The dominant paradigm of fine-tuning multi-hundred-billion-parameter models in monolithic data centers enforces structural trade-offs:
 
+Technological Coloniality: Centralized tokenizers and normative reward models penalize morphologically complex and non-hegemonic languages, treating them as subword anomalies and eroding pragmatic subtleties.
+Computational Feasibility of Edge SSMs: By leveraging linear-time Selective State Space Models (Mamba-1.4B) deployed on commodity edge hardware, we achieve a 
+72.7
+%
+72.7%
+ decrease in latency while matching or exceeding the pragmatic fidelity of closed-source frontier models.
+Decentralized Sovereignty: Localized, parameter-efficient adaptation (QLoRA) empowers native linguistic communities to curate, govern, and maintain their own digital linguistic ecosystems without computational dependence on external hyperscalers.
+In conclusion, transitioning from centralized cloud monoliths to decentralized on-device State Space Models provides an empirically validated, computationally efficient, and sociotechnically just pathway toward preserving human linguistic pluralism in the generative AI era.
+---
+
+📑 Citation & Permanent Archive
+If you use this codebase, empirical benchmark data, or architectural methodology in your academic work, please cite the permanent archive:
+
+BibTeX
+bibtex
+@article{merrikhi2026decentralizing,
+  title={Decentralizing Linguistic Sovereignty: Evaluating State Space Models and On-Device Edge AI Against Algorithmic Cultural Homogenisation},
+  author={Merrikhi, Pegah},
+  journal={Patterns (Cell Press)},
+  year={2026},
+  doi={10.5281/zenodo.22733684},
+  url={https://doi.org/10.5281/zenodo.22733684}
+}
+---
+
+
+Merrikhi, P. (2026). Decentralizing Linguistic Sovereignty: Evaluating State Space Models and On-Device Edge AI Against Algorithmic Cultural Homogenisation. Patterns (Cell Press) / Zenodo. https://doi.org/10.5281/zenodo.22733684
+---
+
+⚖️ License & Open Science Commitment
+This repository, its benchmarking data, and computational scripts are distributed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. All materials are open-access to promote transparency, reproducibility, and linguistic equity in AI research.
+
+Direct Correspondence:
+
+Pegah Merrikhi, PhD
+
+Email: pegah.merrikhiii@gmail.com
+
+ORCID / GitHub: @Pegi1727
+---
 
 ## 🛠️ Repository Architecture & File Manifest
 ```text
