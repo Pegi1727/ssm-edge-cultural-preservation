@@ -116,8 +116,7 @@ If you use this codebase, empirical benchmark data, or architectural methodology
 }
 
 ---
-
-Merrikhi, P. (2026). Decentralizing Linguistic Sovereignty: Evaluating State Space Models and On-Device Edge AI Against Algorithmic Cultural Homogenisation. Patterns (Cell Press) / Zenodo. https://doi.org/10.5281/zenodo.22733684
+Merrikhi, P. (2026). Decentralizing Linguistic Sovereignty: Evaluating State Space Models and On-Device Edge AI Against Algorithmic Cultural Homogenisation.Patterns (Cell Press) / Zenodo. https://doi.org/10.5281/zenodo.22733684
 ---
 
 ⚖️ License & Open Science Commitment
