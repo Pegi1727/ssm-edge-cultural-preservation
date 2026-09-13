@@ -88,6 +88,7 @@ The table below presents the quantitative comparison between the **Cloud Baselin
 
 ---
 💡 Conclusion & Sociotechnical Implications
+
 This research demonstrates that linguistic diversity and cultural sovereignty in artificial intelligence cannot be safeguarded through centralized cloud scaling alone. The dominant paradigm of fine-tuning multi-hundred-billion-parameter models in monolithic data centers enforces structural trade-offs:
 
 Technological Coloniality: Centralized tokenizers and normative reward models penalize morphologically complex and non-hegemonic languages, treating them as subword anomalies and eroding pragmatic subtleties.
