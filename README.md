@@ -88,39 +88,6 @@ The table below presents the quantitative comparison between the **Cloud Baselin
 
 ---
 
-## 📈 Visual Evidence Gallery
-
-### Figure 2: Computational Latency and Subword Fragmentation
-<p align="center">
-  <img src="figures/figure_2_latency.png" alt="Figure 2: Computational Latency and Token Fragmentation" width="90%"/>
-</p>
-<p align="center"><em><b>Figure 2:</b> Empirical comparison of Time-to-First-Token (TTFT in milliseconds) and Token Fragmentation Factor (TFF) between Cloud GPT-4o and localized Edge Mamba-1.4B across all 5 test languages. Error bars denote 95% confidence intervals.</em></p>
-
----
-
-### Figure 3: Linguistic Homogenisation vs. Pragmatic Fidelity Correlation
-<p align="center">
-  <img src="figures/figure3.png" alt="Figure 3: Linguistic Homogenisation vs. Pragmatic Fidelity" width="75%"/>
-</p>
-<p align="center"><em><b>Figure 3:</b> Significant inverse trajectory between Linguistic Homogenisation Index (LHI) and Pragmatic Fidelity Score (PFS) ($\rho = -1.000, p < .001$). Monolithic cloud models impose semantic flattening that directly destroys culturally grounded pragmatic fidelity.</em></p>
-
----
-
-### Figure 4: Typological Breakdown and Cross-Linguistic Disparities
-<p align="center">
-  <img src="figures/figure4.png" alt="Figure 4: Typological Breakdown Radar Chart" width="75%"/>
-</p>
-<p align="center"><em><b>Figure 4:</b> Multi-axial radar decomposition of linguistic preservation, syntactic integrity, idiomaticity, and pragmatic calibration across Indo-Iranian, Turkic, Slavic, Romance, and Germanic typologies.</em></p>
-
----
-
-### Figure 5: 3D Linguistic Sovereignty Landscape & Dynamics
-<p align="center">
-  <img src="figures/figure5.png" alt="Figure 5: 3D Surface Landscape and Sovereignty Gain" width="90%"/>
-</p>
-<p align="center"><em><b>Figure 5:</b> 3D topological manifold displaying semantic convergence gradients alongside longitudinal gains in linguistic sovereignty under localized on-device edge adaptation.</em></p>
-
----
 
 ## 🛠️ Repository Architecture & File Manifest
 ```text
