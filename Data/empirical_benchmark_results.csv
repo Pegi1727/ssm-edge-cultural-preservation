@@ -1,0 +1,11 @@
+Language,Language_Type,Condition,TTFT_ms,TFF,LHI,PFS
+Persian,Non-agglutinative,Cloud,310,2.1,0.72,3.2
+Persian,Non-agglutinative,Edge,95,1.4,0.31,4.5
+Azerbaijani,Agglutinative,Cloud,480,3.8,0.81,2.8
+Azerbaijani,Agglutinative,Edge,142,1.9,0.38,4.2
+Turkish,Agglutinative,Cloud,510,3.5,0.78,3.0
+Turkish,Agglutinative,Edge,128,1.7,0.34,4.4
+Russian,Non-agglutinative,Cloud,400,2.4,0.65,3.5
+Russian,Non-agglutinative,Edge,105,1.5,0.39,4.1
+English,Non-agglutinative,Cloud,460,1.1,0.21,4.8
+English,Non-agglutinative,Edge,121,1.1,0.25,4.6
