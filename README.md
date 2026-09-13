@@ -87,7 +87,7 @@ The table below presents the quantitative comparison between the **Cloud Baselin
 *Notation: **TTFT**: Time-to-First-Token; **TFF**: Token Fragmentation Factor; **LHI**: Linguistic Homogenisation Index; **PFS**: Pragmatic Fidelity Score.*
 
 ---
-💡 Conclusion & Sociotechnical Implications 
+💡Conclusion & Sociotechnical Implications
 
 This research demonstrates that linguistic diversity and cultural sovereignty in artificial intelligence cannot be safeguarded through centralized cloud scaling alone. The dominant paradigm of fine-tuning multi-hundred-billion-parameter models in monolithic data centers enforces structural trade-offs:
 
