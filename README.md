@@ -104,15 +104,22 @@ In conclusion, transitioning from centralized cloud monoliths to decentralized o
 ---
 📑 Citation & Permanent Archive
 If you use this codebase, empirical benchmark data, or architectural methodology in your academic work, please cite the permanent archive:
-
 @article{merrikhi2026decentralizing,
-  title={Decentralizing Linguistic Sovereignty: Evaluating State Space Models and On-Device Edge AI Against Algorithmic Cultural Homogenisation},
-  author={Merrikhi, Pegah},
-  journal={Patterns},
-  publisher={Cell Press},
-  year={2026},
-  doi={10.5281/zenodo.22733684},
-  url={https://doi.org/10.5281/zenodo.22733684}
+
+title={Decentralizing Linguistic Sovereignty: Evaluating State Space Models and On-Device Edge AI Against Algorithmic Cultural Homogenisation},
+
+author={Merrikhi, Pegah},
+
+journal={Patterns},
+
+publisher={Cell Press},
+
+year={2026},
+
+doi={10.5281/zenodo.22733684},
+
+url={https://doi.org/10.5281/zenodo.22733684}
+
 }
 ---
 Merrikhi, P. (2026). Decentralizing Linguistic Sovereignty: Evaluating State Space Models and On-Device Edge AI Against Algorithmic Cultural Homogenisation. Patterns (Cell Press) / Zenodo. https://doi.org/10.5281/zenodo.22733684
