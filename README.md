@@ -25,15 +25,6 @@
 
 ## 📈 Visual Evidence Gallery
 
-## 📈 Visual Evidence Gallery
-
-### Graphical Abstract: Architectural & Sociotechnical Paradigm Shift
-<p align="center">
-  <img src="figures/graphical_abstract.png" alt="Graphical Abstract: Centralized Homogenization vs. Decentralized Sovereignty" width="95%"/>
-</p>
-<p align="center"><em><b>Figure 1: Architectural Paradigm Comparison.</b> Centralized, monolithic cloud architectures enforce normative priors and BPE fragmentation on non-hegemonic languages (Left). Localized on-device Selective State Space Models (Mamba-1.4B) preserve morphosyntactic richness, eliminate subword penalties, and restore sociopragmatic fidelity within a decentralized framework (Right).</em></p>
-
----
 
 ### Figure 2: Computational Latency and Subword Fragmentation
 <p align="center">
