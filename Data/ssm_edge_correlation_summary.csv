@@ -1,0 +1,5 @@
+Scope,n,Pearson_r,p_value_unadjusted
+Pooled 10 language-condition records,10,-0.9957755463612737,1.3862991458668721e-09
+Cloud only (5 languages),5,-0.9963912230890859,0.00026009899871727593
+Edge only (5 languages),5,-0.9588329599647888,0.00996456200865232
+Two condition centroids (n=2; illustrative only),2,-1.0,1.0
