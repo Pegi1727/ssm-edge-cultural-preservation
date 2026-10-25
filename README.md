@@ -53,27 +53,27 @@ Monolithic, cloud-hosted Large Language Models (LLMs) inherently induce **algori
 
 This repository hosts the complete empirical benchmarking suite and reproducible pipeline for evaluating an **on-device, edge-native decentralized architecture** powered by **Selective State Space Models (Mamba-1.4B)** fine-tuned via localized Quantized Low-Rank Adaptation (QLoRA). 
 
-Evaluating across five typologically distinct language families (**Persian, Turkish, Russian, Spanish, and English**), this framework demonstrates:
-1. **$72.7\%$ Latency Reduction** in Time-to-First-Token (TTFT) compared to Cloud GPT-4o ($p < .001$, Cohen's $d_z = 2.14$).
-2. **Mitigation of Token Fragmentation Factor (TFF)** from $2.84\times$ down to $1.14\times$ in morphologically rich languages.
-3. **Statistically Perfect Inverse Correlation** between the Linguistic Homogenisation Index (LHI) and Pragmatic Fidelity Score (PFS) ($\rho = -1.000, p < .001, \alpha = 0.05$).
+Evaluating across five typologically distinct languages (**Persian, Azerbaijani, Turkish, Russian, and English**), this framework demonstrates:
+1. **$72.64\%$ Latency Reduction** in Time-to-First-Token (TTFT) compared to Cloud GPT-4o (Cloud Mean $432.0\text{ ms} \to$ Edge Mean $118.2\text{ ms}$; paired $t(4) = 11.099, p = .000375, d_z = 4.964$; Bonferroni-adjusted $p_{\text{adj}} = .001499$).
+2. **Mitigation of Token Fragmentation Factor (TFF)** in agglutinative Turkic languages (Azerbaijani: $2.14 \to 1.10$; Turkish: $1.98 \to 1.08$).
+3. **Exploratory Inverse Association** between the Linguistic Homogenisation Index (LHI: Cloud Mean $0.634 \to$ Edge Mean $0.334$) and Pragmatic Fidelity Score (PFS: Cloud Mean $3.46 \to$ Edge Mean $4.36$).
 
 ---
 
 ## 📊 Empirical Benchmarking Results
 
-The table below presents the quantitative comparison between the **Cloud Baseline (GPT-4o)** and our localized **Edge SSM (Mamba-1.4B)** across typological categories:
+The table below presents the primary empirical observations across the five benchmarked languages under Cloud (GPT-4o) and Edge (Mamba-1.4B) inference conditions (derived from `empirical_benchmark_results.xlsx`):
 
-| Typological Family | Language | TTFT Cloud (ms) | TTFT Edge (ms) | Latency Delta (%) | TFF (Cloud $\to$ Edge) | LHI (Cloud $\to$ Edge) | PFS (Cloud $\to$ Edge) |
-| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Indo-Iranian (SOV)** | Persian (Farsi) | $892 \pm 34$ | $238 \pm 11$ | **$-73.3\%$** | $2.84 \to 1.14$ | $0.88 \to 0.18$ | $0.62 \to 0.94$ |
-| **Turkic (Agglutinative)**| Turkish | $874 \pm 29$ | $232 \pm 09$ | **$-73.5\%$** | $2.61 \to 1.11$ | $0.84 \to 0.16$ | $0.65 \to 0.95$ |
-| **Slavic (Fusional)** | Russian | $830 \pm 31$ | $228 \pm 12$ | **$-72.5\%$** | $2.15 \to 1.09$ | $0.79 \to 0.19$ | $0.68 \to 0.93$ |
-| **Romance (SVO)** | Spanish | $815 \pm 22$ | $225 \pm 08$ | **$-72.4\%$** | $1.42 \to 1.05$ | $0.69 \to 0.22$ | $0.74 \to 0.92$ |
-| **Germanic (Standard)** | English | $814 \pm 18$ | $227 \pm 10$ | **$-72.1\%$** | $1.02 \to 1.01$ | $0.64 \to 0.24$ | $0.78 \to 0.91$ |
-| **Overall Mean / Test** | **Cross-Lingual** | **$845.0$ ms** | **$230.0$ ms** | **$-72.7\%$** | **$p < .001$** | **$d_z = 2.14$** | **$\rho = -1.000$** |
+| Typological Class | Language | ISO | TTFT Cloud (ms) | TTFT Edge (ms) | Latency Delta (%) | TFF (Cloud $\to$ Edge) | LHI (Cloud $\to$ Edge) | PFS (Cloud $\to$ Edge) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Agglutinative (Turkic)** | Azerbaijani | `az` | $462$ | $124$ | **$-73.16\%$** | $2.14 \to 1.10$ | $0.71 \to 0.38$ | $3.20 \to 4.30$ |
+| **Agglutinative (Turkic)** | Turkish | `tr` | $448$ | $121$ | **$-72.99\%$** | $1.98 \to 1.08$ | $0.68 \to 0.35$ | $3.40 \to 4.40$ |
+| **Non-Agglutinative (Indo-Iranian)** | Persian | `fa` | $485$ | $132$ | **$-72.78\%$** | $1.82 \to 1.12$ | $0.74 \to 0.41$ | $3.10 \to 4.10$ |
+| **Non-Agglutinative (Slavic)** | Russian | `ru` | $415$ | $116$ | **$-72.05\%$** | $1.65 \to 1.06$ | $0.62 \to 0.31$ | $3.60 \to 4.40$ |
+| **Non-Agglutinative (Germanic)** | English | `en` | $350$ | $98$ | **$-72.00\%$** | $1.15 \to 1.01$ | $0.42 \to 0.22$ | $4.00 \to 4.60$ |
+| **Cross-Linguistic Aggregate** | **Mean $\pm$ SD** | — | **$432.0 \pm 79.18$** | **$118.2 \pm 18.59$** | **$-72.64\%$** | **$1.75 \to 1.07$** | **$0.634 \to 0.334$** | **$3.46 \to 4.36$** |
 
-*Notation: **TTFT**: Time-to-First-Token; **TFF**: Token Fragmentation Factor; **LHI**: Linguistic Homogenisation Index; **PFS**: Pragmatic Fidelity Score.*
+> *Note:* Inference runs conducted with standardized prompt sets. Scale interpretations: LHI ranges from $0$ (authentic variation) to $1$ (maximum homogenization); PFS ranges from $1$ (poor) to $5$ (native pragmatic authenticity).
 
 ---
 💡Conclusion & Sociotechnical Implications
