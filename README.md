@@ -12,14 +12,6 @@
 *Permanent Repository:* [https://github.com/Pegi1727/ssm-edge-cultural-preservation](https://github.com/Pegi1727/ssm-edge-cultural-preservation)  
 *Permanent Archive:* [https://doi.org/10.5281/zenodo.22733684](https://doi.org/10.5281/zenodo.22733684)
 
----
-
-## 📌 Graphical Abstract
-
-<p align="center">
-  <img src="figures/graphical abstract.png" alt="Graphical Abstract: Centralized Homogenization vs. Decentralized Sovereignty" width="95%"/>
-</p>
-<p align="center"><em><b>Figure 1: Architectural & Sociotechnical Paradigm Shift.</b> Centralized, monolithic cloud architectures systematically impose Western-centric normative priors and subword fragmentation on non-hegemonic languages (Left). Conversely, localized on-device Selective State Space Models (Mamba-1.4B) preserve morphosyntactic richness, eliminate subword penalties, and restore sociopragmatic fidelity within a decentralized paradigm (Right).</em></p>
 
 ---
 
@@ -35,7 +27,7 @@
 
 ### Figure 2: Computational Latency and Subword Fragmentation
 <p align="center">
-  <img src="figures/figure2.png" alt="Figure 2: Computational Latency and Token Fragmentation" width="90%"/>
+  <img src="figures/figure_2_latency.png" alt="Figure 2: Computational Latency and Token Fragmentation" width="90%"/>
 </p>
 <p align="center"><em><b>Figure 2: Empirical Latency (TTFT) and Token Fragmentation (TFF) Comparison.</b> Cloud GPT-4o exhibits a mean Time-to-First-Token (TTFT) of $432.0 \pm 79.18\text{ ms}$, whereas Edge Mamba-1.4B achieves $118.2 \pm 18.59\text{ ms}$ (a statistically significant $72.64\%$ reduction, paired $t(4) = 11.099, p = .000375, d_z = 4.964$). Agglutinative languages (Azerbaijani and Turkish) show dramatic reductions in Token Fragmentation Factor (TFF).</em></p>
 
@@ -43,7 +35,7 @@
 
 ### Figure 3: Linguistic Homogenisation vs. Pragmatic Fidelity (Exploratory Bivariate Analysis)
 <p align="center">
-  <img src="figures/figure%203.png" alt="Figure 3: Linguistic Homogenisation vs. Pragmatic Fidelity" width="75%"/>
+  <img src="figures/figure_3_correlation.png" alt="Figure 3: Linguistic Homogenisation vs. Pragmatic Fidelity" width="75%"/>
 </p>
 <p align="center"><em><b>Figure 3: Exploratory Bivariate Association Between LHI and PFS ($n=5$).</b> Demonstrates the inverse descriptive trajectory between the Linguistic Homogenisation Index (LHI: Cloud Mean $0.634 \to$ Edge Mean $0.334$) and Pragmatic Fidelity Score (PFS: Cloud Mean $3.46 \to$ Edge Mean $4.36$). Note: Pooled correlation across unaggregated observations is interpreted cautiously per manuscript methodological safeguards to avoid ecological fallacy.</em></p>
 
