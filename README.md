@@ -25,38 +25,35 @@
 
 ## 📈 Visual Evidence Gallery
 
+### Figure 1: Graphical Abstract & Paradigm Shift
+<p align="center">
+  <img src="figures/graphical%20abstract.png" alt="Graphical Abstract: Centralized Homogenization vs. Decentralized Sovereignty" width="95%"/>
+</p>
+<p align="center"><em><b>Figure 1: Architectural & Sociotechnical Paradigm Shift.</b> Centralized cloud architectures (GPT-4o) systematically impose W(es)tern-centric priors and severe subword fragmentation on non-hegemonic languages (Left). Conversely, localized on-device Selective State Space Models (Mamba-1.4B) eliminate networking round-trips, mitigate token fragmentation in agglutinative Turkic languages, and preserve sociopragmatic fidelity (Right).</em></p>
+
+---
 
 ### Figure 2: Computational Latency and Subword Fragmentation
 <p align="center">
   <img src="figures/figure2.png" alt="Figure 2: Computational Latency and Token Fragmentation" width="90%"/>
 </p>
-<p align="center"><em><b>Figure 2:</b> Empirical comparison of Time-to-First-Token (TTFT in milliseconds) and Token Fragmentation Factor (TFF) between Cloud GPT-4o and localized Edge Mamba-1.4B across all 5 test languages. Error bars denote 95% confidence intervals.</em></p>
+<p align="center"><em><b>Figure 2: Empirical Latency (TTFT) and Token Fragmentation (TFF) Comparison.</b> Cloud GPT-4o exhibits a mean Time-to-First-Token (TTFT) of $432.0 \pm 79.18\text{ ms}$, whereas Edge Mamba-1.4B achieves $118.2 \pm 18.59\text{ ms}$ (a statistically significant $72.64\%$ reduction, paired $t(4) = 11.099, p = .000375, d_z = 4.964$). Agglutinative languages (Azerbaijani and Turkish) show dramatic reductions in Token Fragmentation Factor (TFF).</em></p>
 
 ---
 
-### Figure 3: Linguistic Homogenisation vs. Pragmatic Fidelity Correlation
+### Figure 3: Linguistic Homogenisation vs. Pragmatic Fidelity (Exploratory Bivariate Analysis)
 <p align="center">
   <img src="figures/figure%203.png" alt="Figure 3: Linguistic Homogenisation vs. Pragmatic Fidelity" width="75%"/>
 </p>
-<p align="center"><em><b>Figure 3:</b> Significant inverse trajectory between Linguistic Homogenisation Index (LHI) and Pragmatic Fidelity Score (PFS) ($\rho = -1.000, p < .001$). Monolithic cloud models impose semantic flattening thatinguistic Disparities
-<p align="center">
-  <img src="figures/figure4.png" alt="Figure 4: Typological Breakdown Radar Chart" width="75%"/>
-</p>
-<p align="center"><em><b>Figure 4:</b> Multi-axial radar decomposition of linguistic preservation, syntactic integrity, idiomaticity, and pragmatic calibration across Indo-Iranian, Turkic, Slavic, Romance, and Germanic typologies.</em></p>
+<p align="center"><em><b>Figure 3: Exploratory Bivariate Association Between LHI and PFS ($n=5$).</b> Demonstrates the inverse descriptive trajectory between the Linguistic Homogenisation Index (LHI: Cloud Mean $0.634 \to$ Edge Mean $0.334$) and Pragmatic Fidelity Score (PFS: Cloud Mean $3.46 \to$ Edge Mean $4.36$). Note: Pooled correlation across unaggregated observations is interpreted cautiously per manuscript methodological safeguards to avoid ecological fallacy.</em></p>
 
 ---
 
-### Figure 5: 3D Linguistic Sovereignty Landscape & Dynamics
-<p</em></p>
-
----
-
-### Figure 5: 3D Linguistic Sovereignty Landscape & Dynamics
+### Figure 4: Typological Breakdown and Cross-Linguistic Disparities
 <p align="center">
-  <img src="figures/figure5.png" alt="Figure 5: 3D Surface Landscape and Sovereignty Gain" width="90%"/>
+  <img src="figures/figure4.png" alt="Figure 4: Typological Breakdown and Cross-Linguistic Disparities" width="75%"/>
 </p>
-<p align="center"><em><b>Figure 5:</b> 3D topological manifold displaying semantic convergence gradients alongside longitudinal gains in linguistic sovereignty under localized on-device edge adaptation.</em></p>
-
+<p align="center"><em><b>Figure 4: Multi-Panel Typological Breakdown of LHI and PFS.</b> Stratified comparison across agglutinative Turkic languages (Azerbaijani, Turkish) and non-agglutinative reference baselines (Persian, Russian, English), highlighting pronounced structural divergence and localized adaptation gains under on-device edge execution.</em></p>
 
 ## 🔬 Executive Overview & Abstract
 
