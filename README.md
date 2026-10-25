@@ -131,28 +131,38 @@ ORCID / GitHub: @Pegi1727
 ## 🛠️ Repository Architecture & File Manifest
 ssm-edge-cultural-preservation/
 ├── .gitignore
-├── LICENSE                                     # CC-BY-4.0 / MIT
-├── README.md                                   # Comprehensive project documentation & visual gallery
-├── requirements.txt                            # Reproducible runtime dependencies (Python 3.10+)
-├── environment.yml                             # Optional Conda environment specification
-├── analysis.py                                 # Automated end-to-end benchmark execution script
+├── LICENSE
+├── README.md
+├── requirements.txt
+├── analysis.py
+├── executive_summary.md
 │
 ├── data/
-│   ├── empirical_benchmark_results.xlsx        # Primary empirical benchmark workbook & summary
-│   ├── _stats.csv                              # Formatted paired inferential statistics table
-│   └── ssm_edge_clean_paired_data.csv          # Cleaned paired observations (5 languages × 2 conditions)
+│   ├── empirical_benchmark_results.xlsx
+│   ├── _stats.csv
+│   └── ssm_edge_clean_paired_data.csv
 │
 ├── notebooks/
-│   └── ssm_edge_benchmark_analysis.ipynb       # Fully documented interactive analysis & visualization notebook
+│   └── ssm_edge_benchmark_analysis.ipynb
 │
 ├── figures/
-│   ├── graphical abstract.png                  # Figure 1: Architectural & Sociotechnical Paradigm Shift
-│   ├── figure2.png                             # Figure 2: Computational Latency (TTFT) & Subword Fragmentation (TFF)
-│   ├── figure 3.png                            # Figure 3: Exploratory Bivariate Analysis (LHI vs. PFS)
-│   └── figure4.png                             # Figure 4: Typological Breakdown (Agglutinative vs. Non-Agglutinative)
+│   ├── graphical_abstract.png
+│   ├── figure2_computational_latency_tff.png
+│   ├── figure3_exploratory_lhi_pfs.png
+│   └── figure4_typological_breakdown.png
 │
-└── outputs/
-    ├── ssm_edge_paired_statistics.csv          # Descriptive stats, t-tests, dz, and Wilcoxon signed-rank tests
-    ├── ssm_edge_typology_condition_summary.csv # Morphosyntactic group comparisons (Turkic vs. Non-Agglutinative)
+├── outputs/
+│   ├── ssm_edge_paired_statistics.csv
+│   ├── ssm_edge_typology_condition_summary.csv
+│   ├── ssm_edge_typology_paired_differences.csv
+│   ├── ssm_edge_correlation_summary.csv
+│   ├── results_summary.csv
+│   ├── per_language_results.csv
+│   └── correlation_exploratory.csv
+│
+└── docs/
+    ├── edited.docx
+    └── compressed_main document (4).docx
+
     ├── ssm_edge_typology_paired_differences.csv# Condition differentials stratified by typology
     └── ssm_edge_correlation_summary.csv        # Pearson & Spearman exploratory metrics with methodological caveats
