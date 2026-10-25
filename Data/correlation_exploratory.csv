@@ -1,0 +1,4 @@
+analysis,condition,n,spearman_rho,p_two_sided,note
+Within-condition LHI vs PFS,Cloud,5,-1,1.404265422e-24,Exploratory only; n=5 language-level observations; report separately by condition.
+Within-condition LHI vs PFS,Edge,5,-1,1.404265422e-24,Exploratory only; n=5 language-level observations; report separately by condition.
+Correlation between paired changes,Cloud minus Edge changes,5,-0.9746794345,0.004818230468,Exploratory correlation of paired LHI and PFS changes; n=5 languages.
