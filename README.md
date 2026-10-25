@@ -129,30 +129,30 @@ ORCID / GitHub: @Pegi1727
 ---
 
 ## 🛠️ Repository Architecture & File Manifest
-```text
 ssm-edge-cultural-preservation/
+├── .gitignore
+├── LICENSE                                     # CC-BY-4.0 / MIT
+├── README.md                                   # Comprehensive project documentation & visual gallery
+├── requirements.txt                            # Reproducible runtime dependencies (Python 3.10+)
+├── environment.yml                             # Optional Conda environment specification
+├── analysis.py                                 # Automated end-to-end benchmark execution script
+│
 ├── data/
-│   ├── empirical_benchmark_results.csv   # Raw experimental evaluation metrics
-│   └── empirical_benchmark_results.xlsx  # Multi-sheet structured benchmark dataset
-├── figures/                              # High-resolution (300 DPI) publication figures
-│   ├── graphical_abstract.png            # Paradigm architecture illustration (Fig 1)
-│   ├── figure_2_latency.png              # TTFT & TFF comparative bar charts (Fig 2)
-│   ├── figure3.png                       # LHI vs PFS correlation regression (Fig 3)
-│   ├── figure4.png                       # Typological radar performance chart (Fig 4)
-│   └── figure5.png                       # 3D surface landscape & longitudinal trajectory (Fig 5)
-├── src/                                  # Core Python analytical engine
-│   ├── __init__.py
-│   ├── data_loader.py                    # Multi-format dataset ingestion & validation
-│   ├── statistical_analysis.py           # Wilcoxon, Paired t-test, Cohen's dz, Spearman rho
-│   └── visualizations.py                 # Scientific plotting engine
+│   ├── empirical_benchmark_results.xlsx        # Primary empirical benchmark workbook & summary
+│   ├── _stats.csv                              # Formatted paired inferential statistics table
+│   └── ssm_edge_clean_paired_data.csv          # Cleaned paired observations (5 languages × 2 conditions)
+│
 ├── notebooks/
-│   └── evaluation_pipeline.ipynb         # Interactive Jupyter reproduction notebook
-├── R/
-│   ├── 01_statistical_benchmarking.R     # R Markdown and tidyverse statistical validation
-│   └── 02_visualizations.R               # ggplot2 publication plotting scripts
-├── reports/
-│   └── reproducibility_report.Rmd        # Automated scientific report generator
-├── main.py                               # Master execution script (single-click reproduction)
-├── requirements.txt                      # Python dependency specification
-├── install_dependencies.R                # R package management script
-└── README.md                             # Repository documentation and protocols
+│   └── ssm_edge_benchmark_analysis.ipynb       # Fully documented interactive analysis & visualization notebook
+│
+├── figures/
+│   ├── graphical abstract.png                  # Figure 1: Architectural & Sociotechnical Paradigm Shift
+│   ├── figure2.png                             # Figure 2: Computational Latency (TTFT) & Subword Fragmentation (TFF)
+│   ├── figure 3.png                            # Figure 3: Exploratory Bivariate Analysis (LHI vs. PFS)
+│   └── figure4.png                             # Figure 4: Typological Breakdown (Agglutinative vs. Non-Agglutinative)
+│
+└── outputs/
+    ├── ssm_edge_paired_statistics.csv          # Descriptive stats, t-tests, dz, and Wilcoxon signed-rank tests
+    ├── ssm_edge_typology_condition_summary.csv # Morphosyntactic group comparisons (Turkic vs. Non-Agglutinative)
+    ├── ssm_edge_typology_paired_differences.csv# Condition differentials stratified by typology
+    └── ssm_edge_correlation_summary.csv        # Pearson & Spearman exploratory metrics with methodological caveats
